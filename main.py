@@ -152,6 +152,6 @@ if __name__ == "__main__":
             [auth.hash for auth in app.send(GetAuthorizations()).authorizations],
         )
 
-    logging.info("Dragon-Userbot started!")
+    logging.info("Fireflies-Userbot started!")
 
     idle()
