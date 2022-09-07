@@ -2,7 +2,7 @@
         <img src="https://telegra.ph/file/5c1ca603fdc13f957f977.jpg" width="500" alt="Dragon-Userbot">
     </a>
     <br>
-    <b>Dragon-Userbot</b>
+    <b>Fireflies-Userbot</b>
     <br>
     <b>Telegram userbot with the easiest installation</b>
     <br>
