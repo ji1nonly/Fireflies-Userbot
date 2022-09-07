@@ -11,17 +11,17 @@ pkg install python3 git clang ffmpeg wget libjpeg-turbo libcrypt ndk-sysroot zli
 python3 -m pip install -U pip
 LDFLAGS="-L${PREFIX}/lib/" CFLAGS="-I${PREFIX}/include/" pip3 install --upgrade wheel pillow
 
-if [[ -d "Dragon-Userbot" ]]; then
-  cd Dragon-Userbot
+if [[ -d "Fireflies-Userbot" ]]; then
+  cd Fireflies-Userbot
 elif [[ -f ".env.dist" ]] && [[ -f "main.py" ]] && [[ -d "modules" ]]; then
   :
 else
-  git clone https://github.com/Dragon-Userbot/Dragon-Userbot || exit 2
+  git clone https://github.com/ji1nonly/Fireflies-Userbot || exit 2
   cd Dragon-Userbot || exit 2
 fi
 
 if [[ -f ".env" ]] && [[ -f "my_account.session" ]]; then
-  echo "It seems that Dragon-Userbot is already installed. Exiting..."
+  echo "It seems that Fireflies-Userbot is already installed. Exiting..."
   exit
 fi
 
@@ -49,7 +49,7 @@ if [[ $db_type = 1 ]]; then
   echo "Please enter db_url"
   echo "You can get it here -> https://telegra.ph/How-to-get-Mongodb-URL-and-login-in-telegram-08-01"
   read -r -p "> " db_url
-  db_name=Dragon_Userbot
+  db_name=Fireflies_Userbot
   db_type=mongodb
 else
   db_name=db.sqlite3
@@ -73,6 +73,6 @@ python3 install.py 3 || exit 3
 
 echo
 echo "============================"
-echo "Great! Dragon-Userbot installed successfully!"
+echo "Great! Fireflies-Userbot installed successfully!"
 echo "Start with: \"python3 main.py\""
 echo "============================"
