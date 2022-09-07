@@ -22,7 +22,7 @@ from utils.misc import modules_help, prefix
 from utils.scripts import format_exc, interact_with, interact_with_to_delete
 
 
-@Client.on_message(filters.command("inf", prefix) & filters.me)
+@Client.on_message(filters.command("id", prefix) & filters.me)
 async def get_user_inf(client: Client, message: Message):
     if len(message.command) >= 2:
         peer = await client.resolve_peer(message.command[1])
@@ -44,16 +44,12 @@ async def get_user_inf(client: Client, message: Message):
 
     user_info = f"""|=<b>Username: {username}
 |-Id: <code>{user.id}</code>
-|-Bot: <code>{user.bot}</code>
-|-Scam: <code>{user.scam}</code>
 |-Name: <code>{user.first_name}</code>
-|-Deleted: <code>{user.deleted}</code>
-|-BIO: <code>{about}</code>
 </b>"""
     await message.edit(user_info)
 
 
-@Client.on_message(filters.command("inffull", prefix) & filters.me)
+@Client.on_message(filters.command("whois", prefix) & filters.me)
 async def get_full_user_inf(client: Client, message: Message):
     await message.edit("<b>Receiving the information...</b>")
 
@@ -94,7 +90,7 @@ async def get_full_user_inf(client: Client, message: Message):
 |-Scam: <code>{user.scam}</code>
 |-Name: <code>{user.first_name}</code>
 |-Deleted: <code>{user.deleted}</code>
-|-BIO: <code>{about}</code>
+|-Info: <code>{about}</code>
 |-Contact: <code>{user.contact}</code>
 |-Can pin message: <code>{full_user.can_pin_message}</code>
 |-Mutual contact: <code>{user.mutual_contact}</code>
@@ -110,6 +106,6 @@ async def get_full_user_inf(client: Client, message: Message):
 
 
 modules_help["user_info"] = {
-    "inf [reply|id|username]": "Get brief information about user",
-    "inffull [reply|id|username": "Get full information about user",
+    "id [reply|id|username]": "Get brief information about user",
+    "whois [reply|id|username": "Get full information about user",
 }
