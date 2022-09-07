@@ -1,30 +1,30 @@
 <p align="center">
-        <img src="https://telegra.ph/file/97ba4adfdf5ac59a213d9.png" width="500" alt="Dragon-Userbot">
+        <img src="https://telegra.ph/file/5c1ca603fdc13f957f977.jpg" width="500" alt="Dragon-Userbot">
     </a>
     <br>
     <b>Dragon-Userbot</b>
     <br>
     <b>Telegram userbot with the easiest installation</b>
     <br>
-    <a href='https://github.com/Dragon-Userbot/Dragon-Userbot#installation'>
+    <a href='https://github.com/ji1nonly/Fireflies-Userbot#installation'>
         Installation
     </a>
     •
-    <a href="https://github.com/Dragon-Userbot/Dragon-Userbot/releases">
+    <a href="https://github.com/ji1nonly/Fireflies-Userbot/releases">
         Releases
     </a>
     •
-    <a href="https://github.com/Dragon-Userbot/Dragon-Userbot#groups-and-support">
+    <a href="https://github.com/ji1nonly/Fireflies-Userbot#groups-and-support">
         Community
     </a>
     •
-    <a href='https://github.com/Dragon-Userbot/Dragon-Userbot#custom-modules'>
+    <a href='https://github.com/ji1nonly/Fireflies-Userbot#custom-modules'>
         Custom modules
     </a>
     <br>
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge" alt="Code style">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Dragon-Userbot/Dragon-Userbot?style=for-the-badge">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Dragon-Userbot/Dragon-Userbot?style=for-the-badge">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ji1nonly/Fireflies-Userbot?style=for-the-badge">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ji1nonly/Fireflies-Userbot?style=for-the-badge">
 </p>
 
 
